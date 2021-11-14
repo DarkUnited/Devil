@@ -1,4 +1,4 @@
-# 👁️ hello i am ⚖️🐝KgAmda🐝⚖️
+
 
 <div align="center">
   <img src="https://i.ibb.co/mT0KMwh/LOGO.jpg" width="300" height="300">      
