@@ -581,4 +581,66 @@ else if (Config.WORKTYPE == 'public') {
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | 😈☠ DEVIL ☠😈'})
 
     }));
+    
+    Asena.addCommand({pattern: 'hi', fromMe: false, desc: EFFECT_DESC}, (async (message, match) => {    
+
+    await message.sendMessage('hello');
+        
+    }));
+    
+    Asena.addCommand({pattern: 'why', fromMe: false, desc: EFFECT_DESC}, (async (message, match) => {    
+
+    await message.sendMessage('ai moko');
+        
+    }));
+    
+    Asena.addCommand({pattern: 'gm', fromMe: false, desc: EFFECT_DESC}, (async (message, match) => {    
+
+    await message.sendMessage('gm bng');
+        
+    }));
+    
+    Asena.addCommand({pattern: 'ado', fromMe: false, desc: EFFECT_DESC}, (async (message, match) => {    
+
+    await message.sendMessage('moko hutto');
+        
+    }));
+    
+    Asena.addCommand({pattern: 'mk', fromMe: false, desc: EFFECT_DESC}, (async (message, match) => {    
+
+    await message.sendMessage('mukut ne pakayo');
+        
+    }));
+    
+    Asena.addCommand({pattern: 'kavada', fromMe: false, desc: EFFECT_DESC}, (async (message, match) => {    
+
+    await message.sendMessage('ne hutto tama');
+        
+    }));
+    
+    Asena.addCommand({pattern: 'palayan', fromMe: false, desc: EFFECT_DESC}, (async (message, match) => {    
+
+    await message.sendMessage('uba palayan hutto mata kiyanne pakaya');
+        
+    }));
+    
+    
+    Asena.addCommand({pattern: 'moko', fromMe: false, desc: EFFECT_DESC}, (async (message, match) => {    
+
+    await message.sendMessage('moko ballo');
+        
+    }));
+    
+    Asena.addCommand({pattern: 'hi', fromMe: false, desc: EFFECT_DESC}, (async (message, match) => {    
+
+    await message.sendMessage('hello');
+        
+    }));
+    
+    Asena.addCommand({pattern: 'hello', fromMe: false, desc: EFFECT_DESC}, (async (message, match) => {    
+
+    await message.sendMessage('hi kohomatha');
+        
+    }));
+    
 }
